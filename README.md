@@ -15,7 +15,13 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 ## Introduction
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+Self-driving cars have become a hot topic in recent years due to their potential to revolutionize transportation. These cars can navigate and operate without human input, using a combination of sensors, cameras, and sophisticated algorithms. In order to build a self-driving car, various technologies such as machine learning, computer vision, and robotics are employed.
+
+One such technology that can be used to create a self-driving car is Arduino. Arduino is an open-source electronics platform based on easy-to-use hardware and software. It allows you to create interactive objects and projects that can sense and control the physical world.
+
+Using an Arduino board, you can build a self-driving car that can sense its environment, make decisions, and drive on its own. The car can be equipped with a range of cameras such as pixy 2 that can detect obstacles and other objects in its path. It can also use machine learning algorithms to analyze and process data from these camera to make intelligent decisions.
+
+In this documentation, we will provide a step-by-step guide on how to build a self-driving car using Arduino. We will cover everything from selecting the right components to assembling and programming the car. Whether you're a beginner or an experienced electronics enthusiast, this guide will help you build your very own self-driving car using Arduino.
 
 ## How to prepare the repo based on the template
 
