@@ -1,0 +1,29 @@
+#include <Pixy2.h>
+#include <Servo.h>
+ 
+Pixy2 pixy;
+Servo servo;
+ 
+void setup() {
+  Serial.begin(115200);
+  pixy.init();
+  servo.attach(9);
+  servo.write(90);
+}
+ 
+void loop() {
+  int i;
+ 
+  blocks = pixy.getBlocks();
+ 
+  if (blocks) {
+    for (i = 0; i < blocks; i++) {
+      if (pixy.blocks[0].signature == 1) {
+        servo.write(0);
+            if (pixy.blocks[0].signature == 2) {
+        servo.write(180);
+ 
+      }
+    }
+  }
+}
