@@ -23,6 +23,20 @@ Using an Arduino board, you can build a self-driving car that can sense its envi
 
 In this documentation, we will provide a step-by-step guide on how to build a self-driving car using Arduino. We will cover everything from selecting the right components to assembling and programming the car. Whether you're a beginner or an experienced electronics enthusiast, this guide will help you build your very own self-driving car using Arduino.
 
+## Materials Required
+1.Camera - PIX42 Camera
+2.Ultrasonic Sensor HC SRO4 Adafruit
+3.Arduino UNO or Mega
+4.Battery
+5.Wheels
+6.Ball bearings
+7.LM2596 - Step down module
+8.LIPO battery -2 XT60 connector
+9.MUGOSO- gyroscope and accelerometer
+10. Pololu 12V stepup/ down 818 V20F12
+11. L298N motor driver (arduino).
+12. 12V 300 RPM DC Motor
+13. DS20MG Servo motor
 ## How to prepare the repo based on the template
 
 _Remove this section before the first commit to the repository_
