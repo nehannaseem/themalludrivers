@@ -60,7 +60,7 @@ In our project, it appears that we have chosen to 3D print the axle connectors. 
 
 * Material Selection: 3D printing gives you the flexibility to choose from a wide range of materials for your axle connector, such as plastic, metal, or composite materials. This allows you to select the material that best suits the requirements of your project, such as strength, durability, or weight.
 
-*Cost: 3D printing can be a cost-effective way to produce a custom-designed axle connector for your project. Depending on the size and complexity of your design, 3D printing can be more affordable than other manufacturing methods, such as injection molding or CNC machining.
+* Cost: 3D printing can be a cost-effective way to produce a custom-designed axle connector for your project. Depending on the size and complexity of your design, 3D printing can be more affordable than other manufacturing methods, such as injection molding or CNC machining.
 
 Overall, 3D printing the axle connectors allows you to create a custom-designed part that meets the specific needs of your project, while also providing flexibility in terms of material selection and cost. This ensures a stable and secure connection between your motor and rotating component, which is essential for the smooth and accurate movement of your robot.
 
