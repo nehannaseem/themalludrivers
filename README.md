@@ -50,7 +50,7 @@ In this documentation, we will provide a step-by-step guide on how to build a se
 
 9. L298N Motor driver (Arduino): The L298N motor driver allows the Arduino board to control the vehicle's DC motor, enabling it to move forward, backward, and turn.
 
-10. LEGO Medium DC Motor: The LEGO Medium DC Motor is a powerful and versatile motor used in various LEGO robotics kits and projects. It is capable of running at speeds up to 3800 RPM and provides a maximum torque of 40 Ncm (Newton centimeters). The motor can be controlled using a LEGO motor controller or with an Arduino using an H-bridge motor driver.
+10. LEGO Medium DC Motor: The LEGO Medium DC Motor is a powerful and versatile motor used in various LEGO robotics kits and projects. It is capable of running at speeds up to 3800 RPM and provides a maximum torque of 40 Ncm (Newton centimeters). The motor can be controlled using a LEGO motor controller or with an Arduino.
 
 One of the key features of the LEGO Medium DC Motor is its compact and lightweight design, which makes it ideal for use in mobile robotics applications. It has a simple interface that allows it to be easily integrated with other LEGO components, such as gears and axles, to create complex mechanisms and machines.
 
