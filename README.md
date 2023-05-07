@@ -28,15 +28,24 @@ In this documentation, we will provide a step-by-step guide on how to build a se
 
 1. Camera - PIXY 2 Camera: The camera is an essential component for any autonomous vehicle project as it allows the vehicle to see its environment and make informed decisions about navigation. The PIXY 2 camera is a popular choice due to its high resolution and ease of integration with other systems.
 
+
+![pixy2_in_hand-300px](https://user-images.githubusercontent.com/129651787/236665844-784d054e-7ab8-4b3b-a66a-d9c4917aaff3.jpg)
+
+
 2. Ultrasonic Sensor HC SRO4 Adafruit: The ultrasonic sensor is another essential component for autonomous vehicles. It provides distance measurements, enabling the vehicle to navigate its environment safely and avoid obstacles. The HC SRO4 Adafruit is a reliable and affordable sensor that is easy to use with Arduino boards.
+
+![adafruit_products_HC-SR04_top](https://user-images.githubusercontent.com/129651787/236665944-1309cafb-f96a-4b9a-90a8-3d822e3b9ca4.jpg)
+
 
 3. Arduino UNO : Arduino is a popular open-source platform for building electronic projects, and it is widely used in robotics and automation projects. The Arduino board provides a microcontroller that can interface with sensors and other components and run software programs to control the vehicle.
 
-4. Battery: A battery is required to power the vehicle's electrical components, and the choice of battery depends on factors such as voltage, capacity, and weight. The specific battery chosen for your project may have been based on factors such as availability and compatibility with other components.
+![71X9XbfwDKL _AC_UF1000,1000_QL80_](https://user-images.githubusercontent.com/129651787/236666012-0ad6f567-fde3-491e-82da-f4980a81dff1.jpg)
 
-5. Wheels: Wheels are necessary for any vehicle project, and the choice of wheels depends on factors such as the vehicle's weight, the terrain it will be used on, and the desired speed and maneuverability.
+4. Wheels: Wheels are necessary for any vehicle project, and the choice of wheels depends on factors such as the vehicle's weight, the terrain it will be used on, and the desired speed and maneuverability.
 
-6. Lithium Ion Battery : Lithium-ion batteries, or Li-ion batteries, are a popular choice for many applications, including robotics and other electronic devices. Li-ion batteries offer several advantages over other types of batteries, such as:
+![47475105122_a60c6a8175_b](https://user-images.githubusercontent.com/129651787/236666047-904168d1-872f-40e3-bff1-ff0099390d9f.jpg)
+
+5. Lithium Ion Battery : Lithium-ion batteries, or Li-ion batteries, are a popular choice for many applications, including robotics and other electronic devices. Li-ion batteries offer several advantages over other types of batteries, such as:
 
 * High Energy Density: Li-ion batteries have a high energy density, which means they can store a lot of energy in a small package. This is important for robotics applications, where you want to maximize the power available while minimizing the size and weight of the battery.
 * Low Self-Discharge Rate: Li-ion batteries have a low self-discharge rate, which means they can retain their charge for long periods of time without needing to be recharged. This is useful for applications where the robot may need to sit idle for extended periods of time.
@@ -44,19 +53,34 @@ In this documentation, we will provide a step-by-step guide on how to build a se
 * Fast Charging: Li-ion batteries can be charged relatively quickly compared to other types of batteries. This is useful for applications where the robot needs to be up and running quickly after being recharged.
 * Lightweight: Li-ion batteries are lightweight compared to other types of batteries, which is important for robotics applications where the weight of the battery can impact the mobility and performance of the robot.
 
-7. MUGOSO- gyroscope and accelerometer: The gyroscope and accelerometer provide data about the vehicle's orientation and movement, enabling the vehicle to make informed decisions about navigation and control.
+![Keeppower-17500-3-6V-3-7V-1200mAh-Lithium-Ionen-Akku](https://user-images.githubusercontent.com/129651787/236666101-9241a73a-0777-485a-9f93-a3e4b6cc33af.jpg)
 
-8. Stepup/ Down: A step-down voltage regulator typically uses an inductor, capacitor, and switch to regulate the voltage. The input voltage is applied to the switch, which rapidly turns on and off to create a pulsed voltage that is then fed through the inductor and capacitor to smooth out the waveform and provide a stable output voltage. The output voltage is determined by the duty cycle of the switch and the values of the inductor and capacitor..
 
-9. L298N Motor driver (Arduino): The L298N motor driver allows the Arduino board to control the vehicle's DC motor, enabling it to move forward, backward, and turn.
+6. MUGOSO- gyroscope and accelerometer: The gyroscope and accelerometer provide data about the vehicle's orientation and movement, enabling the vehicle to make informed decisions about navigation and control.
 
-10. LEGO Medium DC Motor: The LEGO Medium DC Motor is a powerful and versatile motor used in various LEGO robotics kits and projects. It is capable of running at speeds up to 3800 RPM and provides a maximum torque of 40 Ncm (Newton centimeters). The motor can be controlled using a LEGO motor controller or with an Arduino.
+![Arduino-Tutorial-For-Interfacing-MPU6050-Accelerometer-Gyroscope-Module](https://user-images.githubusercontent.com/129651787/236666120-04477a96-d93c-424d-b556-5fef26607db6.jpg)
+
+
+7. Stepup/ Down: A step-down voltage regulator typically uses an inductor, capacitor, and switch to regulate the voltage. The input voltage is applied to the switch, which rapidly turns on and off to create a pulsed voltage that is then fed through the inductor and capacitor to smooth out the waveform and provide a stable output voltage. The output voltage is determined by the duty cycle of the switch and the values of the inductor and capacitor..
+
+![0J5036 1200](https://user-images.githubusercontent.com/129651787/236666162-03af6dd9-60e4-4716-a6f1-82bb1a07b3e3.jpg)
+
+
+8. L298N Motor driver (Arduino): The L298N motor driver allows the Arduino board to control the vehicle's DC motor, enabling it to move forward, backward, and turn.
+
+![71sTb-GvaLL _AC_UF1000,1000_QL80_](https://user-images.githubusercontent.com/129651787/236666193-b05c07e9-77aa-4251-bb6a-f1c77c864ab4.jpg)
+
+9. LEGO Medium DC Motor: The LEGO Medium DC Motor is a powerful and versatile motor used in various LEGO robotics kits and projects. It is capable of running at speeds up to 250 RPM and provides a maximum torque of 40 Ncm (Newton centimeters). The motor can be controlled using a LEGO motor controller or with an Arduino.
 
 One of the key features of the LEGO Medium DC Motor is its compact and lightweight design, which makes it ideal for use in mobile robotics applications. It has a simple interface that allows it to be easily integrated with other LEGO components, such as gears and axles, to create complex mechanisms and machines.
 
-11. MG90 Servo motor: The servo motor is a type of motor that can be controlled precisely, making it suitable for steering and other precise movements.
+![image](https://user-images.githubusercontent.com/129651787/236666360-6a0d4d4c-ddcf-4ed6-b364-74dcd66b7986.jpeg)
+
+10. MG90 Servo motor: The servo motor is a type of motor that can be controlled precisely, making it suitable for steering and other precise movements.
 
 In the case of our project, it is likely that we chose to use axle connectors to attach wheels or other rotating components to the MG90 servo motors because of their ease of use and compatibility with other components. Additionally, axle connectors can provide additional stability and precision to the movement of your robot, making it more reliable and accurate in its movements.
+
+![mg90s-micro-servo-motor-1690-65-B](https://user-images.githubusercontent.com/129651787/236666391-04fab203-a6a4-4a0b-81ed-468df6897f5c.jpg)
 
 Incorporating all of these components into the design of the vehicle requires careful consideration of factors such as weight, balance, and power consumption. By selecting and implementing these parts effectively, it is possible to create a well-functioning vehicle that can navigate its environment with precision and efficiency. By discussing these components and their functions, it is possible to provide students, enthusiasts, and professionals with a better understanding of how mobility management works in practice.
 
