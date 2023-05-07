@@ -84,6 +84,12 @@ In the case of our project, it is likely that we chose to use axle connectors to
 
 Incorporating all of these components into the design of the vehicle requires careful consideration of factors such as weight, balance, and power consumption. By selecting and implementing these parts effectively, it is possible to create a well-functioning vehicle that can navigate its environment with precision and efficiency. By discussing these components and their functions, it is possible to provide students, enthusiasts, and professionals with a better understanding of how mobility management works in practice.
 
+11. Breadboard: A breadboard is a prototyping tool used for building and testing electronic circuits without the need for soldering. It is essentially a board with a grid of holes that allow you to insert and connect electronic components and wires together in a temporary and non-permanent manner.
+
+The board is designed to have a common ground and power bus that runs along its length, and the holes are typically arranged in rows and columns that align with the pins on common electronic components such as resistors, capacitors, and integrated circuits (ICs). This allows you to easily plug in and connect components to create circuits without the need for a permanent connection
+
+![9524f3be82271b9662dddab18740eabc-hi](https://user-images.githubusercontent.com/129651787/236668689-89c38240-44d8-48ff-89ab-d897c2ed2a91.jpg)
+
 We have used LEGO because LEGO is a popular platform for robotics projects, particularly for educational and hobbyist applications. There are several reasons why we have chosen LEGO Mindstorms for your project:
 
 * Accessibility: LEGO is widely available and relatively affordable compared to other robotics platforms. It is also easy to use, making it an ideal platform for beginners who are just starting to learn about robotics.
