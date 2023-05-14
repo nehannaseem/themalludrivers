@@ -55,28 +55,17 @@ In this documentation, we will provide a step-by-step guide on how to build a se
 
 ![Keeppower-17500-3-6V-3-7V-1200mAh-Lithium-Ionen-Akku](https://user-images.githubusercontent.com/129651787/236666101-9241a73a-0777-485a-9f93-a3e4b6cc33af.jpg)
 
-
-6. MUGOSO- gyroscope and accelerometer: The gyroscope and accelerometer provide data about the vehicle's orientation and movement, enabling the vehicle to make informed decisions about navigation and control.
-
-![Arduino-Tutorial-For-Interfacing-MPU6050-Accelerometer-Gyroscope-Module](https://user-images.githubusercontent.com/129651787/236666120-04477a96-d93c-424d-b556-5fef26607db6.jpg)
-
-
-7. Stepup/ Down: A step-down voltage regulator typically uses an inductor, capacitor, and switch to regulate the voltage. The input voltage is applied to the switch, which rapidly turns on and off to create a pulsed voltage that is then fed through the inductor and capacitor to smooth out the waveform and provide a stable output voltage. The output voltage is determined by the duty cycle of the switch and the values of the inductor and capacitor..
-
-![0J5036 1200](https://user-images.githubusercontent.com/129651787/236666162-03af6dd9-60e4-4716-a6f1-82bb1a07b3e3.jpg)
-
-
-8. L298N Motor driver (Arduino): The L298N motor driver allows the Arduino board to control the vehicle's DC motor, enabling it to move forward, backward, and turn.
+6. L298N Motor driver (Arduino): The L298N motor driver allows the Arduino board to control the vehicle's DC motor, enabling it to move forward, backward, and turn.
 
 ![71sTb-GvaLL _AC_UF1000,1000_QL80_](https://user-images.githubusercontent.com/129651787/236666193-b05c07e9-77aa-4251-bb6a-f1c77c864ab4.jpg)
 
-9. LEGO Medium DC Motor: The LEGO Medium DC Motor is a powerful and versatile motor used in various LEGO robotics kits and projects. It is capable of running at speeds up to 250 RPM and provides a maximum torque of 40 Ncm (Newton centimeters). The motor can be controlled using a LEGO motor controller or with an Arduino.
+7. LEGO Medium DC Motor: The LEGO Medium DC Motor is a powerful and versatile motor used in various LEGO robotics kits and projects. It is capable of running at speeds up to 250 RPM and provides a maximum torque of 40 Ncm (Newton centimeters). The motor can be controlled using a LEGO motor controller or with an Arduino.
 
 One of the key features of the LEGO Medium DC Motor is its compact and lightweight design, which makes it ideal for use in mobile robotics applications. It has a simple interface that allows it to be easily integrated with other LEGO components, such as gears and axles, to create complex mechanisms and machines.
 
 ![image](https://user-images.githubusercontent.com/129651787/236666360-6a0d4d4c-ddcf-4ed6-b364-74dcd66b7986.jpeg)
 
-10. MG90 Servo motor: The servo motor is a type of motor that can be controlled precisely, making it suitable for steering and other precise movements.
+8. MG90 Servo motor: The servo motor is a type of motor that can be controlled precisely, making it suitable for steering and other precise movements.
 
 In the case of our project, it is likely that we chose to use axle connectors to attach wheels or other rotating components to the MG90 servo motors because of their ease of use and compatibility with other components. Additionally, axle connectors can provide additional stability and precision to the movement of your robot, making it more reliable and accurate in its movements.
 
@@ -84,7 +73,7 @@ In the case of our project, it is likely that we chose to use axle connectors to
 
 Incorporating all of these components into the design of the vehicle requires careful consideration of factors such as weight, balance, and power consumption. By selecting and implementing these parts effectively, it is possible to create a well-functioning vehicle that can navigate its environment with precision and efficiency. By discussing these components and their functions, it is possible to provide students, enthusiasts, and professionals with a better understanding of how mobility management works in practice.
 
-11. Breadboard: A breadboard is a prototyping tool used for building and testing electronic circuits without the need for soldering. It is essentially a board with a grid of holes that allow you to insert and connect electronic components and wires together in a temporary and non-permanent manner.
+9. Breadboard: A breadboard is a prototyping tool used for building and testing electronic circuits without the need for soldering. It is essentially a board with a grid of holes that allow you to insert and connect electronic components and wires together in a temporary and non-permanent manner.
 
 The board is designed to have a common ground and power bus that runs along its length, and the holes are typically arranged in rows and columns that align with the pins on common electronic components such as resistors, capacitors, and integrated circuits (ICs). This allows you to easily plug in and connect components to create circuits without the need for a permanent connection
 
