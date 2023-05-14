@@ -1,0 +1,117 @@
+#include <Pixy2.h>
+Pixy2 pixy;
+int turns = 0;
+
+
+#include <Servo.h>
+Servo myServo;
+int servoPin = 4;
+int angle;
+
+int BUTTON_PIN = 2; 
+int buttonState = 0;  
+
+int enB = 3;
+int in3 = 4;
+int in4 = 5;
+
+int frontEcho = 6;
+int frontTrig = 7;
+int FD;
+int fduration;
+
+int leftEcho = 19;
+int leftTrig = 18;
+int LD;
+int lduration;
+
+int rightEcho= 17;
+int rightTrig= 16;
+int RD;
+int rduration;
+
+int center;
+
+void setup() {
+  pinMode(BUTTON_PIN, INPUT_PULLUP); 
+  
+  pinMode(echopin, INPUT);
+  pinMode(trpin, OUTPUT);
+  
+  pinMode(enB, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+
+//  pixy.init();
+  
+  Serial.begin(115200);         
+}
+
+void loop() {
+  buttonState = digitalRead(BUTTON_PIN); 
+  Serial.println(buttonState);
+    if (buttonState == 0){
+    digitalWrite(in3, HIGH);
+    digitalWrite(in4, LOW);
+    analogWrite(in3, 125);
+    }
+
+  int blocks = pixy.ccc.getBlocks();
+  int sig = pixy.ccc.blocks[0].m_signature;
+  if (sig == 3){
+    angle = 180;
+    }
+  if (sig == 4){
+    angle = 0;
+    
+    turns = turns+1
+    }
+
+digitalWrite(frontTrig, LOW);
+delayMicroseconds(10);
+digitalWrite(frontTrig, HIGH);
+delayMicroseconds(10);
+digitalWrite(frontTrig, LOW);
+fduration = pulseIn(frontEcho, HIGH);
+FD =(fduration/2) * 0.0343; 
+
+digitalWrite(leftTrig, LOW);
+delayMicroseconds(10);
+digitalWrite(leftTrig, HIGH);
+delayMicroseconds(10);
+digitalWrite(leftTrig, LOW);
+lduration = pulseIn(leftEcho, HIGH);
+LD =(lduration/2) * 0.0343;
+
+digitalWrite(rightTrig, LOW);
+delayMicroseconds(10);
+digitalWrite(rightTrig, HIGH);
+delayMicroseconds(10);
+digitalWrite(rightTrig, LOW);
+rduration = pulseIn(rightEcho, HIGH);
+RD =(rduration/2) * 0.0343;
+
+delay(10);
+
+center = LD - LR
+
+angle = map(center, LD-LR, LD+LR, 30, 150);
+
+if(centre>0){
+  myServo.write(angle);
+  }
+
+
+if (center<0){
+  myServo.write(angle);
+  }
+
+  if (turns == 12){
+    delay(200)
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, LOW);
+    }
+
+  
+
+}
