@@ -1,0 +1,69 @@
+ #include <Servo.h>
+Servo myServo;
+int servoPin = 4;
+int angle;
+
+int BUTTON_PIN = 2; 
+int buttonState = 0;  
+
+int enB = 3;
+int in3 = 4;
+int in4 = 5;
+
+int frontEcho = 6;
+int frontTrig = 7;
+int FD;
+int fduration;
+
+int leftEcho = 19;
+int leftTrig = 18;
+int LD;
+int lduration;
+
+int rightEcho= 17;
+int rightTrig= 16;
+int RD;
+int rduration;
+
+int center;
+
+// Setting all the variables that will be necessary for the movement of the vehicle.
+ 
+ 
+ 
+ buttonState = digitalRead(BUTTON_PIN); 
+  Serial.println(buttonState);
+    if (buttonState == 0){
+    digitalWrite(in3, HIGH);
+    digitalWrite(in4, LOW);
+    analogWrite(in3, 125);
+    }
+    // The part of the code that makes the vehicle move on pressing the Push Button at the start of the round.
+    
+    
+    
+    
+center = LD - LR
+angle = map(center, LD-LR, LD+LR, 30, 150);
+if(centre>0){
+  myServo.write(angle);
+  }
+if (center<0){
+  myServo.write(angle);
+  }
+  
+  \\This part of the code determines the angle turns taken by the vehicle to keep itself in the center of the track and not hit the walls during the round.
+
+  if (turns == 12){
+    delay(200)
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, LOW);
+    }
+    
+    
+    \\Using the commands here the vehicle knows exacty where to stop itself after the three rounds are over.
+    
+    
+    
+    
+    
