@@ -79,6 +79,25 @@ The board is designed to have a common ground and power bus that runs along its 
 
 ![9524f3be82271b9662dddab18740eabc-hi](https://user-images.githubusercontent.com/129651787/236668689-89c38240-44d8-48ff-89ab-d897c2ed2a91.jpg)
 
+10. Gy521 Gyrosensor: The GY-521 gyroscope sensor, often referred to as the MPU-6050, is a popular and versatile sensor module used to measure angular velocity or rotational motion in electronic projects. The GY-521 gyroscope sensor is a compact and lightweight sensor module that combines both a gyroscope and an accelerometer.
+
+Key Features:
+. Gyroscope: The gyroscope component of the sensor measures the rate of angular velocity or how fast an object is rotating. It provides data about the orientation and angular changes of an object.
+
+. Accelerometer: The accelerometer part of the sensor measures acceleration, including the force of gravity. It can detect changes in the sensor's orientation and acceleration along different axes.
+
+. Six Degrees of Freedom (DoF): The GY-521 is often referred to as a 6-DoF sensor because it provides data for three axes of rotation (gyroscope) and three axes of acceleration (accelerometer).
+
+. Communication: The sensor typically communicates with a microcontroller or computer using I2C (Inter-Integrated Circuit) communication protocol, making it easy to interface with various platforms.
+
+. High Precision: It offers relatively high precision for measuring angular velocity and acceleration, making it suitable for applications requiring accurate motion tracking.
+
+. Compact Size: The GY-521 is small in size, making it easy to integrate into compact electronic projects.
+
+Overall, the GY-521 gyroscope sensor is a valuable component for projects that involve measuring and tracking the orientation and motion of objects in three-dimensional space. It provides essential data for tasks like stabilizing robots, controlling drones, or tracking the orientation of virtual reality headsets.
+
+![SN-MPU6050-800x800](https://github.com/nehannaseem/themalludrivers/assets/129651787/5cb75284-d697-4e89-905d-4c4ae84e6889)
+
 We have used LEGO because LEGO is a popular platform for robotics projects, particularly for educational and hobbyist applications. There are several reasons why we have chosen LEGO Mindstorms for your project:
 
 * Accessibility: LEGO is widely available and relatively affordable compared to other robotics platforms. It is also easy to use, making it an ideal platform for beginners who are just starting to learn about robotics.
