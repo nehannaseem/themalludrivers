@@ -82,17 +82,17 @@ The board is designed to have a common ground and power bus that runs along its 
 10. Gy521 Gyrosensor: The GY-521 gyroscope sensor, often referred to as the MPU-6050, is a popular and versatile sensor module used to measure angular velocity or rotational motion in electronic projects. The GY-521 gyroscope sensor is a compact and lightweight sensor module that combines both a gyroscope and an accelerometer.
 
 Key Features:
-. Gyroscope: The gyroscope component of the sensor measures the rate of angular velocity or how fast an object is rotating. It provides data about the orientation and angular changes of an object.
+* Gyroscope: The gyroscope component of the sensor measures the rate of angular velocity or how fast an object is rotating. It provides data about the orientation and angular changes of an object.
 
-. Accelerometer: The accelerometer part of the sensor measures acceleration, including the force of gravity. It can detect changes in the sensor's orientation and acceleration along different axes.
+* Accelerometer: The accelerometer part of the sensor measures acceleration, including the force of gravity. It can detect changes in the sensor's orientation and acceleration along different axes.
 
-. Six Degrees of Freedom (DoF): The GY-521 is often referred to as a 6-DoF sensor because it provides data for three axes of rotation (gyroscope) and three axes of acceleration (accelerometer).
+* Six Degrees of Freedom (DoF): The GY-521 is often referred to as a 6-DoF sensor because it provides data for three axes of rotation (gyroscope) and three axes of acceleration (accelerometer).
 
-. Communication: The sensor typically communicates with a microcontroller or computer using I2C (Inter-Integrated Circuit) communication protocol, making it easy to interface with various platforms.
+* Communication: The sensor typically communicates with a microcontroller or computer using I2C (Inter-Integrated Circuit) communication protocol, making it easy to interface with various platforms.
 
-. High Precision: It offers relatively high precision for measuring angular velocity and acceleration, making it suitable for applications requiring accurate motion tracking.
+* High Precision: It offers relatively high precision for measuring angular velocity and acceleration, making it suitable for applications requiring accurate motion tracking.
 
-. Compact Size: The GY-521 is small in size, making it easy to integrate into compact electronic projects.
+* Compact Size: The GY-521 is small in size, making it easy to integrate into compact electronic projects.
 
 Overall, the GY-521 gyroscope sensor is a valuable component for projects that involve measuring and tracking the orientation and motion of objects in three-dimensional space. It provides essential data for tasks like stabilizing robots, controlling drones, or tracking the orientation of virtual reality headsets.
 
