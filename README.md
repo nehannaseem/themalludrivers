@@ -1,4 +1,4 @@
-Engineering materials
+Engineering Materials
 ====
 
 This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
@@ -98,6 +98,31 @@ Overall, the GY-521 gyroscope sensor is a valuable component for projects that i
 
 ![SN-MPU6050-800x800](https://github.com/nehannaseem/themalludrivers/assets/129651787/5cb75284-d697-4e89-905d-4c4ae84e6889)
 
+11.Step Up module: The Step Up Module is a voltage regulator that can reduce the voltage from the battery to a level suitable for powering other components in the vehicle.
+
+The MT3605 is a popular step-up (boost) voltage regulator module that is used to increase a lower input voltage to a higher output voltage. It's commonly employed in electronics projects to power devices that require a voltage higher than the available power source.
+
+Key features:
+* Input Voltage Range: The module typically accepts input voltages ranging from 2V to 24V, although the exact range can vary depending on the specific model or variant.
+
+* Output Voltage: The output voltage can be adjusted using an onboard potentiometer or resistor. It can typically provide a stable output voltage ranging from 5V to 28V, depending on the input voltage and module configuration.
+
+* Step-Up Operation: The MT3605 operates as a boost converter, which means it takes a lower input voltage and increases it to a higher output voltage. This is useful when you need to power devices that require a voltage higher than your power source.
+
+* Efficiency: These modules are known for their relatively high efficiency, which means they waste less power during the voltage conversion process. However, efficiency can vary depending on the specific operating conditions.
+
+* Protection Features: Some MT3605 modules may include protection features such as over-current protection, over-temperature protection, and reverse voltage protection.
+
+* Applications: MT3605 modules are commonly used in various projects, including battery-powered devices, DIY electronics, and prototypes. They are particularly useful when you need to power components like sensors, microcontrollers, or displays that require higher voltages.
+
+* Compact Form Factor: These modules are compact and easy to integrate into your projects. They often have input and output terminals, making it simple to connect them to your circuit.
+
+* Adjustability: The modules typically include a potentiometer or resistor to adjust the output voltage to your desired level. This flexibility is valuable when working on projects with specific voltage requirements.
+
+Overall, the MT3605 step-up module is a versatile and handy tool for electronics enthusiasts and hobbyists, providing an efficient way to boost voltage levels for various applications.
+
+![MT3608-3A-Step-Up-Boost-Converter-Module-1](https://github.com/nehannaseem/themalludrivers/assets/129651787/bca7bf93-d986-4dc2-8383-6a198ebd544b)
+
 We have used LEGO because LEGO is a popular platform for robotics projects, particularly for educational and hobbyist applications. There are several reasons why we have chosen LEGO Mindstorms for your project:
 
 * Accessibility: LEGO is widely available and relatively affordable compared to other robotics platforms. It is also easy to use, making it an ideal platform for beginners who are just starting to learn about robotics.
@@ -138,7 +163,7 @@ In our project, it appears that we have chosen to 3D print the axle connectors. 
 
 Overall, 3D printing the axle connectors allows you to create a custom-designed part that meets the specific needs of your project, while also providing flexibility in terms of material selection and cost. This ensures a stable and secure connection between your motor and rotating component, which is essential for the smooth and accurate movement of your robot.
 
-2. Chasis for Ultrasonic Sensor: The chassis of the ultrasonic sensor is an important component of our robotics project as it provides a stable and secure mounting location for the sensor. The chassis is designed to hold the sensor in place and ensure that it is positioned correctly relative to other components, such as the motors and wheels.
+2. Chassis for Ultrasonic Sensor: The chassis of the ultrasonic sensor is an important component of our robotics project as it provides a stable and secure mounting location for the sensor. The chassis is designed to hold the sensor in place and ensure that it is positioned correctly relative to other components, such as the motors and wheels.
 
 In our project, it appears that we have chosen to 3D print the chassis for your ultrasonic sensor. There are several reasons why we choose to do this:
 
@@ -164,6 +189,7 @@ Overall, the 3D printed chassis for the PIXY 2 camera is an important component 
 One of the most critical aspects of any mobile robotics project is the power source. For this project, we have selected 2 LI-ion batteries with a capacity of 3.7 volt, which is capable of providing the required voltage and current to power the motors, sensors, and other components on the vehicle. To maximize battery life, we have carefully selected sensors that consume minimal power while still providing the necessary data to help the vehicle negotiate different challenges. These sensors include the PIXY 2 camera for visual recognition, the HC SRO4 ultrasonic sensor for distance measurement, and the MUGOSO gyroscope and accelerometer for motion tracking. We have also included a MG90 servo motor to actuate the camera and a step-down module to regulate voltage levels. To ensure reliable and efficient operation, we have designed a professional wiring diagram that includes all components and connections, as well as a comprehensive BOM that details each component and its specifications. With this approach, we can be confident that our vehicle will operate safely, reliably, and efficiently.
 
 ## How we overcame obstacles
+
 To navigate the obstacle course, we have implemented a combination of vision-based navigation and ultrasonic sensing. The PIXY 2 camera provides real-time video feedback that is processed by an onboard computer running custom software developed using Aurdino programming language. The software detects and tracks obstacles in the path of the vehicle, calculates their position and size, and generates a path plan to avoid them. The HC SRO4 ultrasonic sensor is used to provide distance information and adjust the vehicle's speed accordingly. To ensure efficient and reliable operation, we have designed the software using a modular approach, with each module responsible for a specific task. We have also included comprehensive comments and documentation in the source code to aid in understanding and future development. The software is executed on an Arduino UNO microcontroller, which controls the various motors and servos that actuate the vehicle's movement and camera positioning. We have designed flow diagrams and pseudo code to aid in understanding the software logic and to facilitate debugging and modification. With this approach, we can be confident that our vehicle will effectively negotiate the obstacle course and complete the assigned tasks.
 
 In conclution our robotics project is more than just a collection of components and parts; it is a testament to the power of imagination, creativity, and innovation. Through our hard work, determination, and ingenuity, we have transformed a simple idea into a fully functioning robot, capable of performing a wide range of tasks.
